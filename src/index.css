@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p{
+  font-family: Open sans;
+}
+
+/* Remove border from the Quill editor */
+.ql-container {
+  border: none !important;
+  outline: none;
+}
+
+.ql-editor {
+  border: none !important;
+  padding-top: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Optional: Remove hover/focus styles */
+.ql-toolbar {
+  border: none !important;
+  background: white;
+  padding-left: 20px;
+}
